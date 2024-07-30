@@ -21,10 +21,19 @@
     <ClCompile Include="main.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="stdafx.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClCompile>
+    <ClCompile Include="Principal.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="Pessoa.h">
+    <ClInclude Include="Pessoa.h">
       <Filter>Arquivos de Cabeçalho</Filter>
-    </Library>
+    </ClInclude>
+    <ClInclude Include="Principal.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
